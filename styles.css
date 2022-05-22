@@ -115,6 +115,14 @@ a {
 .action {
     background-color: #3882F6;
     color:#F9FAF8;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 112px;
+    padding-right: 112px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 button {
@@ -129,4 +137,7 @@ button {
     background-color: #1F2937;
     color:#F9FAF8;
     text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
