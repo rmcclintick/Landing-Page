@@ -3,6 +3,7 @@
 body {
     font-family: Roboto;
     margin: 0;
+
     display:flex;
     flex-direction: column;
 }
@@ -12,6 +13,8 @@ body {
     justify-content: space-between;
     padding-bottom: 48px;
     padding-top: 8px;
+    padding-left: 56px;
+    padding-right: 56px;
     align-items: center;
 }
 
@@ -39,6 +42,8 @@ a {
     display: flex;
     gap: 28px;
     padding-bottom: 48px;
+    padding-left: 56px;
+    padding-right: 56px;
 }
 
 .hero-main {
@@ -117,12 +122,21 @@ a {
     color:#F9FAF8;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 112px;
-    padding-right: 112px;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-left: 56px;
+    padding-right: 56px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-content: center;
+}
+
+.action-text-container {
+    display: flex;
+    flex-direction: column;
 }
 
 button {
