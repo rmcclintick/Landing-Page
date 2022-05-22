@@ -51,6 +51,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .hero-right {
@@ -58,7 +59,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6d747d
+    background-color: #6d747d;
+}
+
+.info {
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-bottom: 48px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+}
+
+.info-container {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+
+.picture {
+    width: 128px;
+    height: 128px;
+    border: 4px solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+    text-align: center;
 }
 
 .quote {
